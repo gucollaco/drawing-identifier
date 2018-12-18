@@ -9,7 +9,7 @@ Firstly, check if you have the following libraries installed (and if possible, u
 - Matplotlib
 - PIL
 
-Then, select on [Quick, Draw!](https://quickdraw.withgoogle.com/data), some .npy data to be used on the experiment. Once you selected the desired datas, put them inside the 'data' folder (the code will use these files on the learning process).
+Then, select on [Quick, Draw!](https://quickdraw.withgoogle.com/data), some .npy data to be used on the experiment. Once you selected the desired datas, create a 'data' folder on the root of the project, and put them inside it (the code will use these files on the learning process).
 
 The next step is to execute the main.py file, which will accomplish the training process, and store a keras model at the 'model' folder.
 ```
